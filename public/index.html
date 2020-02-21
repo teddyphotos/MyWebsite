@@ -13,34 +13,39 @@
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
     
   </head>
-  <body style="background-color: #ffffff; min-height: 300vh;">
+  <body id="body-main" style="background-color: #ffffff; min-height: 300vh;">
 
     <nav class="navbar navbar-primary p-0 sticky-top" id="navbar-main" style="min-height: 60px; background-color: #ffffff; box-shadow: 0px 0px 20px #eeeeee;">
       <div class="container-fluid p-0">
         <div class="container" style="text-align: center;  color: #424242;">
           <div class="row" style="width: 100%;">
             <div class="col d-flex justify-content-start align-items-center p-0" style="font-size: 20px;">
-                <h5 class="m-0" style="color: #212121;">Kashish Goel</h5>
+                <h5 id="my-name" class="m-0" style="color: #212121;">Kashish Goel</h5>
             </div>
             <div class="col">
 
             </div>
             <div class="col d-flex justify-content-end align-items-center">
 
-              <a href="https://twitter.com/kashishgoel_" class="mr-3">
-                <img src="./images/twitter.png" width="24px;" height="24px;">
+              <a href="https://twitter.com/kashishgoel_" target="_blank" class="mr-3">
+                <img id="twitter-icon" src="./images/twitter.png" width="24px;" height="24px;">
                 
               </a>
   
-              <a href="https://github.com/teddyphotos" class="mr-3">
-                <img src="./images/git.png" width="24px;" height="24px;">
+              <a href="https://github.com/teddyphotos" target="_blank" class="mr-3">
+                <img id="git-icon" src="./images/git.png" width="24px;" height="24px;">
 
               </a>
 
-              <a href="https://www.linkedin.com/in/kashishhgoel/" >
-                <img src="./images/linkedin.png" width="24px;" height="24px;">
+              <a href="https://www.linkedin.com/in/kashishhgoel/" target="_blank" class="mr-3">
+                <img id="linkedin-icon" src="./images/linkedin.png" width="24px;" height="24px;">
                 
               </a>
+
+              
+              <img id="theme-icon" src="./images/dark_icon.png" width="24px;" height="24px;" onmousedown="activateDarkMode()">
+                
+              
               
 
             </div>
@@ -61,7 +66,7 @@
 
         <div class="row mt-5">
           <div class="col">
-            <h2>Recent Projects</h2>
+            <h2 id="recent_proj_title">Recent Projects</h2>
           </div>
         </div>
 
@@ -69,7 +74,7 @@
         <div class="row mt-2 pl-3 pr-3" style="min-height: 500px;">
           <div class="col p-0 ml-3 mr-3 ">
 
-            <div class="container bg-white p-0" style="min-height: 500px; box-shadow: 0px 0px 10px #eeeeee; border-radius: 25px;">
+            <div id="featured_tile_1" class="container p-0" style="background-color: #ffffff; min-height: 500px; box-shadow: 0px 0px 10px #eeeeee; border-radius: 25px;">
 
               <div class="container d-flex align-items-center justify-content-center" style="min-height: 350px;">
 
@@ -86,7 +91,7 @@
           </div>
           <div class="col p-0 ml-3 mr-3 ">
 
-            <div class="container bg-white p-0" style="min-height: 500px; box-shadow: 0px 0px 10px #eeeeee; border-radius: 25px;">
+            <div id="featured_tile_2" class="container p-0" style="background-color: #ffffff; min-height: 500px; box-shadow: 0px 0px 10px #eeeeee; border-radius: 25px;">
 
               <div class="container d-flex align-items-center justify-content-center" style="min-height: 350px;">
 
@@ -102,7 +107,7 @@
           </div>
           <div class="col p-0 ml-3 mr-3 ">
 
-            <div class="container bg-white p-0" style="min-height: 500px; box-shadow: 0px 0px 10px #eeeeee; border-radius: 25px;">
+            <div id="featured_tile_3" class="container p-0" style="background-color: #ffffff; min-height: 500px; box-shadow: 0px 0px 10px #eeeeee; border-radius: 25px;">
 
               <div class="container d-flex align-items-center justify-content-center" style="min-height: 350px;">
 
@@ -120,13 +125,13 @@
 
         <div class="container mt-5">
           <div class="col text-secondary">
-            <h5>Technologies</h5>
+            <h5 id="tech_title">Technologies</h5>
           </div>
         </div>
 
         <div class="container">
           <div class="col">
-            <h2>I've worked in</h2>
+            <h2 id="ive_worked_title">I've worked in</h2>
           </div>
         </div>
 
@@ -135,7 +140,7 @@
       <div class="row pl-5 pr-5 mt-4 ml-5 mr-5" style="min-height: 20px; ">
         <div class="col p-0 pr-2" >
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_1" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Linear Regression</h6>
@@ -147,7 +152,7 @@
         </div>
         <div class="col p-0 pr-2 pl-2">
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_2" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Logistic Regression</h6>
@@ -159,7 +164,7 @@
         </div>
         <div class="col p-0 pr-2 pl-2">
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_3" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">K-Means Clustering</h6>
@@ -171,7 +176,7 @@
         </div>
         <div class="col p-0 pl-2">
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_4" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Artificial Neural Network</h6>
@@ -186,7 +191,7 @@
       <div class="row pl-5 pr-5 mt-3 ml-2 mr-2" style="min-height: 20px; ">
         <div class="col p-0 pr-2" >
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_5" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Support Vector Machine</h6>
@@ -198,7 +203,7 @@
         </div>
         <div class="col p-0  pr-2 pl-2">
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_6" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Dimensionality Reduction</h6>
@@ -210,7 +215,7 @@
         </div>
         <div class="col p-0 pr-2 pl-2">
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_7" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Principal Component Analysis</h6>
@@ -222,7 +227,7 @@
         </div>
         <div class="col p-0 pr-2 pl-2">
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_8" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Material Design</h6>
@@ -234,7 +239,7 @@
         </div>
         <div class="col p-0 pl-2">
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_9" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Firebase Database</h6>
@@ -248,7 +253,7 @@
       <div class="row pl-5 pr-5 mt-3 ml-5 mr-5" style="min-height: 20px; ">
         <div class="col p-0 pr-2" >
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_10" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Bootstrap</h6>
@@ -260,7 +265,7 @@
         </div>
         <div class="col p-0 pr-2 pl-2">
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_11" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Flutter</h6>
@@ -272,7 +277,7 @@
         </div>
         <div class="col p-0 pr-2 pl-2">
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_12" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Android Studio</h6>
@@ -284,7 +289,7 @@
         </div>
         <div class="col p-0 pl-2">
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_13" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Apple XCode</h6>
@@ -299,7 +304,7 @@
       <div class="row pl-5 pr-5 mt-3 ml-2 mr-2" style="min-height: 20px; ">
         <div class="col p-0 pr-2" >
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_14" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Python</h6>
@@ -311,7 +316,7 @@
         </div>
         <div class="col p-0  pr-2 pl-2">
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_15" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Java</h6>
@@ -323,7 +328,7 @@
         </div>
         <div class="col p-0 pr-2 pl-2">
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_16" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">JavaScript</h6>
@@ -335,7 +340,7 @@
         </div>
         <div class="col p-0 pr-2 pl-2">
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_17" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Octave</h6>
@@ -347,7 +352,7 @@
         </div>
         <div class="col p-0 pl-2">
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_18" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">C</h6>
@@ -364,7 +369,7 @@
         </div>
         <div class="col p-0 pr-2 pl-2">
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_19" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Adobe XD</h6>
@@ -376,7 +381,7 @@
         </div>
         <div class="col p-0 pr-2 pl-2">
 
-          <div class="container bg-white p-0" style="min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
+          <div id="skill_tile_20" class="container p-0" style="background-color: #ffffff; min-height: 20px; box-shadow: 0px 0px 5px #e0e0e0; border-radius: 10px;">
 
             <div class="container d-flex align-items-center justify-content-center p-0" style="min-height: 50px;">
               <h6 class= "mt-2">Adobe Photoshop</h6>
@@ -395,13 +400,13 @@
 
         <div class="container mt-5">
           <div class="col text-secondary">
-            <h5>Technologies</h5>
+            <h5 id="sec_tech_title">Technologies</h5>
           </div>
         </div>
 
         <div class="container">
           <div class="col">
-            <h2>I'm learning now</h2>
+            <h2 id="im_learning_title">I'm learning now</h2>
           </div>
         </div>
 
