@@ -9,11 +9,11 @@ function activateDarkMode(){
       document.getElementById("body-main").style.background = "#212121";
       document.getElementById("navbar-main").style.background = "#333333";
       document.getElementById("navbar-main").style.boxShadow = "0px 0px 10px #000000";
-      document.getElementById("featured_tile_1").style.backgroundImage = "url(./images/flutter_card_background_dark.svg)";
+      document.getElementById("featured_tile_1").style.background = "#333333";
       document.getElementById("featured_tile_1").style.boxShadow = "";
       // document.getElementById("featured_tile_2").style.background = "#333333";
-      document.getElementById("featured_tile_2").style.boxShadow = "";
-      // document.getElementById("featured_tile_3").style.background = "#333333";
+      // document.getElementById("featured_tile_2").style.boxShadow = "";
+      document.getElementById("featured_tile_3").style.background = "#333333";
       document.getElementById("featured_tile_3").style.boxShadow = "";
       document.getElementById("skill_tile_1").style.background = "#333333";
       document.getElementById("skill_tile_1").style.boxShadow = "";
@@ -64,6 +64,7 @@ function activateDarkMode(){
     document.getElementById("git-icon").src = "./images/git_light.png";
     document.getElementById("linkedin-icon").src = "./images/linkedin_light.png";
     document.getElementById("twitter-icon").src = "./images/twitter_light.png";
+    document.getElementById("kashish-feature-image").src = "./images/kashishgoelblackwhitepng.png";
 
     // Changes to text
     document.getElementById("my-name").style.color = "#ffffff";
@@ -92,9 +93,9 @@ function activateDarkMode(){
     document.getElementById("skill_tile_18").style.color = "#ffffff";
     document.getElementById("skill_tile_19").style.color = "#ffffff";
     document.getElementById("skill_tile_20").style.color = "#ffffff";
-    document.getElementById("flutter_app_card_title_1").style.color = "#ffffff";
-    document.getElementById("flutter_app_name_1").style.color = "#ffffff";
-    document.getElementById("flutter_app_1_description").style.color = "#ffffff";
+    document.getElementById("think-different").style.color = "#ffffff";
+    document.getElementById("think-different-2").style.color = "#bdbdbd";
+    
 
     
 
@@ -108,12 +109,12 @@ function activateDarkMode(){
     document.getElementById("body-main").style.background = "#ffffff";
     document.getElementById("navbar-main").style.background = "#ffffff";
     document.getElementById("navbar-main").style.boxShadow = "0px 0px 20px #eeeeee";
-    document.getElementById("featured_tile_1").style.backgroundImage = "url(./images/flutter_card_background.svg)";
+    document.getElementById("featured_tile_1").style.background = "#ffffff";
     document.getElementById("featured_tile_1").style.boxShadow = "0px 0px 10px #eeeeee";
     // document.getElementById("featured_tile_2").style.background = "#ffffff";
-    document.getElementById("featured_tile_2").style.boxShadow = "0px 0px 10px #eeeeee";
-    // document.getElementById("featured_tile_3").style.background = "#ffffff";
-    document.getElementById("featured_tile_3").style.boxShadow = "0px 0px 10px #eeeeee";
+    // document.getElementById("featured_tile_2").style.boxShadow = "0px 0px 10px #eeeeee";
+    document.getElementById("featured_tile_3").style.background = "#fff8e1";
+    // document.getElementById("featured_tile_3").style.boxShadow = "0px 0px 10px #eeeeee";
     document.getElementById("skill_tile_1").style.background = "#ffffff";
     document.getElementById("skill_tile_1").style.boxShadow = "0px 0px 5px #e0e0e0";
     document.getElementById("skill_tile_2").style.background = "#ffffff";
@@ -161,6 +162,7 @@ function activateDarkMode(){
     document.getElementById("git-icon").src = "./images/git.png";
     document.getElementById("linkedin-icon").src = "./images/linkedin.png";
     document.getElementById("twitter-icon").src = "./images/twitter.png";
+    document.getElementById("kashish-feature-image").src = "./images/kashishblackpng.png";
 
     // Changes to text
     document.getElementById("my-name").style.color = "#212121";
@@ -189,9 +191,9 @@ function activateDarkMode(){
     document.getElementById("skill_tile_18").style.color = "#212121";
     document.getElementById("skill_tile_19").style.color = "#212121";
     document.getElementById("skill_tile_20").style.color = "#212121";
-    document.getElementById("flutter_app_card_title_1").style.color = "#185895";
-    document.getElementById("flutter_app_name_1").style.color = "#185895";
-    document.getElementById("flutter_app_1_description").style.color = "#185895";
+    document.getElementById("think-different").style.color = "#000000";
+    document.getElementById("think-different-2").style.color = "#606060";
+    
 
     
 
